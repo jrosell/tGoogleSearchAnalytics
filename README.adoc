@@ -7,4 +7,4 @@ Run:
 
 $ ./mnvw clean install
 
-$ java -jar thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car studio-deploy /path/to/my/studio
+$ java -jar target/thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car studio-deploy /path/to/my/studio
