@@ -5,6 +5,6 @@ This Talend component is dedicated to get search analytics information from Goog
 == Install instructions
 Run:
 
-$ ./mnvw clean install
+$ ./mvnw clean install
 
 $ java -jar target/thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car studio-deploy /path/to/my/studio
