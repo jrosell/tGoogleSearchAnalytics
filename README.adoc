@@ -19,7 +19,7 @@ $ java -jar target/thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car s
 
 For example:
 $ java -jar target/thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car studio-deploy /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1
-
+```
 [studio-deploy, /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1]
 /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar already exists, skipping
 /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar already exists, skipping
@@ -28,3 +28,4 @@ $ java -jar target/thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car s
 /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar already exists, skipping
 /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar already exists, skipping
 /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar already exists, skipping
+```
