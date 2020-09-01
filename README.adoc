@@ -3,10 +3,15 @@
 This Talend component is dedicated to get search analytics information from Google Webmasters API.
 
 == Install instructions
+
 Run:
+
 $ git clone https://github.com/jrosell/tGoogleSearchAnalytics
+
 $ cd tGoogleSearchAnalytics
+
 $ ./mvnw clean install
+```
 ...
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
@@ -14,10 +19,13 @@ $ ./mvnw clean install
 [INFO] Total time:  9.109 s
 [INFO] Finished at: 2020-09-01T17:12:43+02:00
 [INFO] ------------------------------------------------------------------------
+```
 
 $ java -jar target/thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car studio-deploy /path/to/my/talend
 
+
 For example:
+
 $ java -jar target/thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car studio-deploy /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1
 ```
 [studio-deploy, /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1]
