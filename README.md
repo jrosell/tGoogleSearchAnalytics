@@ -1,14 +1,23 @@
-= tGoogleSearchAnalytics
+# tGoogleSearchAnalytics
 
 This Talend component is dedicated to get search analytics information from Google Webmasters API.
 
-== Install instructions
+## Install instructions
 
-Run:
+### Install all requirments:
+
+* Talend Open Studio 7.x
+* Java Development Kit (JDK).
+* Maven.
+
+### Run:
+
 
 $ git clone https://github.com/jrosell/tGoogleSearchAnalytics
 
 $ cd tGoogleSearchAnalytics
+
+$ chmod u+x mvnw
 
 $ ./mvnw clean install
 ```
@@ -37,3 +46,9 @@ $ java -jar target/thediar-talendcomp-googlesearchanalytics-0.0.1-SNAPSHOT.car s
 /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar already exists, skipping
 /home/jordi/Projects/talend/TOS_DI-Win32-20200219_1130-V7.3.1/configuration/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar already exists, skipping
 ```
+
+### Restart Talend Open Studio:
+
+Close and open your Talend Open Studio and check on your Palette for tGoogleSearchAnalyticsInput component:
+
+![Installed](installed.png)
